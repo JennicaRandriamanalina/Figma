@@ -13,9 +13,10 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-sm bg-light navbar-light">
         <!-- Brand/logo -->
-        <a class="navbar-brand" href="#"><b>Logo</b></a>
+        <a class="navbar-brand" href="#" style="padding-left: 50px;"><b>Logo</b></a>
         
         <!-- Links -->
+        <div class="bar">
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link" href="#">ACCUEIL</a>
@@ -24,9 +25,13 @@
             <a class="nav-link" href="#">REALISATION</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link text-danger" href="#">SE CONNECTER</a>
           </li>
         </ul>
+      </div>
       </nav>
       <!-- hero page -->
       <section>
@@ -84,7 +89,7 @@
               Harum odit voluptate obcaecati praesentium sequi voluptates <br>
                 a quibusdam fugiat, numquam ullam eligendi ea sint.
             </p>
-            <button type="button" class="btn btn-danger" style="align-items: right;">Je me lance</button>
+            <button type="button" class="btn btn-danger" style="align-items: right; border-radius: 30px;">Je me lance</button>
           </div>
           <div class="def">
             <img src="img/Rectangle 5.png" class="float-right" style="width: 600px; height: 300px; padding-left: 30px;"> 
@@ -96,7 +101,7 @@
         <div class="jumbotron jumbotron-fluid">
 
           <i class="fas fa-angle-left" onclick="left()" style="font-size: xx-large; float: left; cursor: pointer;"></i>
-          <div id="slides" style="overflow-x: hidden; min-width: 80vh; display: inline-flex;  scroll-behavior: smooth; display: flex;">
+          <div id="slides" style="overflow-x: hidden; min-width: 80vh; display: inline-flex;  scroll-behavior: smooth; padding-left: 150px;">
               <div class="mx-3" style="padding-left: 200px;">
                   <img src="img/Fichier 2.png" style="width: 60px;">
                   <p>labore</p>
@@ -104,7 +109,6 @@
               <div class="mx-5 px-5">
                 <img src="img/Fichier 3.png" style="width: 60px;">    
                 <p>aliqua</p>
-         
                </div>
               <div class="mx-5 px-5">
                 <img src="img/Fichier 7.png" style="width: 60px;">   
@@ -117,13 +121,25 @@
               </div>
             </div>
           <i class="fas fa-angle-right" style="font-size: xx-large; float: right; cursor: pointer;" onclick="right()"></i>
-        
-
         </div>
       </section>
       <section>
       <div>
-        <h1 class="text-center pad"><b>Réalisation</b></h1>
+        <h1 class="text-center pad"><b>Realisation</b></h1>
+        <div style="display: inline-flex; padding-left: 300px;">
+            <div style="padding-right: 300px; width: 20px;text-align: center;padding-top: 50px;">
+              <button type="button" class="btn btn-danger" style="align-items: right; border-radius: 5px;">Tout</button>
+            </div>
+            <div style="padding: 50px;">
+              Plomberie
+            </div>
+            <div style="padding: 50px;">
+              Menuiserie
+            </div>
+            <div style="padding: 50px;">
+              Lorem
+            </div>
+        </div>
         <div class="aze">
           <img src="img/Background.png" >
           <img src="img/Background-2.png">
@@ -142,21 +158,21 @@
         <div class="jumbotron jumbotron-fluid">
           <h1 class="text-center"><b>Les offres et promotions</b></h1>
           <div class="row">
-          <div class="card col-sm" style="width:400px">
+          <div class="card col-sm col-xs-12" style="width:400px">
             <img class="card-img-top" src="img/Rectangle 11.png" alt="Card image" style="width:100%">
             <div class="card-body">
               <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias voluptatum repudiandae quia, magni suscipit,</p>
               <a href="#" class="text-danger">En savoir plus</a>
             </div>
           </div>
-          <div class="card col-sm" style="width:400px">
+          <div class="card col-sm col-xs-12" style="width:400px">
               <img class="card-img-top" src="img/Rectangle 11-1.png" alt="Card image" style="width:100%">
               <div class="card-body">
                 <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias voluptatum repudiandae quia, magni suscipit,</p>
                   <a href="#" class="text-danger">En savoir plus</a>
               </div>
           </div>
-          <div class="card col-sm" style="width:400px">
+          <div class="card col-sm col-xs-12" style="width:400px">
                 <img class="card-img-top" src="img/Rectangle 11-2.png" alt="Card image" style="width:100%">
                 <div class="card-body">
                   <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias voluptatum repudiandae quia, magni suscipit,</p>
@@ -189,21 +205,24 @@
       <section>
         <div class="jumbotron jumbotron-fluid">
           <h1 class="text-center"><b>Qui sommes-nous ?</b></h1>
-          <div class="flex">
-          <div class="f">
-            <img src="img/Rectangle 12.png" class="b">
-          </div>
-          <div class="c">
-            <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b></p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis asperiores quaerat non, eius molestiae saepe</p>
-            <button type="button" class="btn btn-danger" style="border-radius: 30px;">En savoir plus</button>
-          </div>
-          </div>
+          <i class="fas fa-angle-left" onclick="left()" style="font-size: xx-large; float: left; cursor: pointer;"></i>
+          <div id="slides" style="overflow-x: hidden; min-width: 80vh; display: inline-flex;  scroll-behavior: smooth; padding-left: 150px;">
+            <div class="flex">
+            <div class="f">
+              <img src="img/Rectangle 12.png" class="b">
+            </div>
+            <div class="c">
+              <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b></p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Nobis asperiores quaerat non, eius molestiae saepe</p>
+              <button type="button" class="btn btn-danger" style="border-radius: 30px;">En savoir plus</button>
+            </div>
+            </div>
         </div>
+        <i class="fas fa-angle-right" style="font-size: xx-large; float: right; cursor: pointer;" onclick="right()"></i>
       </section>
       <section>
         <div class="fr">
-          <div style="padding-right: 30px;">
+          <div style="padding-right: 30px; padding-left: 30px;">
             Nos offres
           </div>
           <div style="padding-right: 30px;">
@@ -224,6 +243,7 @@
           <div style="padding-right: 30px;">
             connexion
           </div>
+          <i class="fa fa-facebook-f" aria-hidden="true"></i>
         </div>
       </section>
       
