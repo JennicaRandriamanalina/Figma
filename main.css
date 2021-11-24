@@ -1,23 +1,39 @@
 .container-fluid{
-    background-image: url("img/cover.jpg");
+    background-image: url("img/Rectangle\ 6.png");
     background-position: top;
     padding-left: 80px;
     padding-top: 200px;
     padding-bottom: 150px;
+}
+.pad{
+    padding-left: 30px;
+}
+body .h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-item{
+    text-align: right;
 }
 .btn{
     border-radius: 30px;
 }
 .card-deck{
     padding: 100px;
+
+}
+.flex{
+    display: flex;
+    padding-top: 60px;
 }
 .abcd{
+    padding-right: 30px;
     padding-left: 100px;
 }
 .def{
 display: right;
 padding-right: 200px;
 padding-top: 0px;
+
 }
 .a{
     padding-bottom: 200px;
@@ -37,4 +53,6 @@ padding-top: 0px;
 }
 .c{
     text-align: left;
+    padding-left: 20px;
+    padding-top: 70px;
 }

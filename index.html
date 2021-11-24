@@ -5,13 +5,13 @@
     <title>Figma</title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="main.js">
-</head>
+    <script src="main.js"></script>
+  </head>
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-light">
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
         <!-- Brand/logo -->
-        <a class="navbar-brand" href="#">Logo</a>
+        <a class="navbar-brand" href="#"><b>Logo</b></a>
         
         <!-- Links -->
         <ul class="navbar-nav">
@@ -22,7 +22,7 @@
             <a class="nav-link" href="#">REALISATION</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">SE CONNECTER</a>
+            <a class="nav-link text-danger" href="#">SE CONNECTER</a>
           </li>
         </ul>
       </nav>
@@ -31,9 +31,9 @@
         <div class="container-fluid">
           <form class="form-inline">
             <input class="form-control mr-sm-2" type="text" placeholder="Recherche">
-            <button class="btn btn-secodary" type="submit">Search</button>
+            <button class="btn btn-secodary" type="submit">search</button>
           </form>
-            <h1><b>Realiser vos projets</b></h1>
+            <h1 style="padding-top: 10px;"><b>Realiser vos projets</b></h1>
             <br>
             <h1 class="text-danger"><b>selon votre projet</b></h1> 
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
@@ -70,6 +70,7 @@
       <section>
         <div class="a">
           <h1 class="text-center"><b>Comment on procède ?</b></h1>
+          <div class="flex"> 
           <div class="abcd">
             <p>
               <b>1. Je définis mon projet</b>
@@ -79,12 +80,12 @@
               Harum odit voluptate obcaecati praesentium sequi voluptates <br>
                 a quibusdam fugiat, numquam ullam eligendi ea sint.
             </p>
-            <button type="button" class="btn btn-danger">Je me lance</button>
+            <button type="button" class="btn btn-danger" style="align-items: right;">Je me lance</button>
           </div>
           <div class="def">
-            <img src="img/plan-de-travail-neptune_5733533.jpg" class="float-right" alt="image-projet" width="304" height="236"> 
+            <img src="img/Rectangle 5.png" class="float-right" style="width: 700px; height: 300px; padding-left: 30px;"> 
           </div>
-        
+          </div>
         </div>
       </section>
       <section>
@@ -94,28 +95,14 @@
       </section>
       <section>
       <div>
-        <h1 class="text-center"><b>Réalisation</b></h1>
-        <div>
-          <ul class="nav nav-pills">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>  
-        </div>
-        <img src="img/beige.jpg">
-        <img src="img/tv.jpg">
-        <img src="img/dining.jpg">
-        <img src="img/vue-mur-orange-lit-comfortable.jpg">
-        <img src="img/plan-de-travail-neptune_5733533.jpg"> <br>
+        <h1 class="text-center pad"><b>Réalisation</b></h1>
+
+        <img src="img/Background.png" >
+        <img src="img/Background-2.png">
+        <img src="img/Background-5.png"> <br>
+        <img src="img/Background-1.png">
+        <img src="img/Background-3.png"> 
+        <img src="img/Background-4.png"> <br>
         <button type="button" class="btn btn-dark">Voir plus</button>
       </div>
       </section>
@@ -124,21 +111,21 @@
           <h1 class="text-center"><b>Les offres et promotions</b></h1>
           <div class="row">
           <div class="card col-sm" style="width:400px">
-            <img class="card-img-top" src="img/maison-ultra-moderne-noir-blanc.jpg" alt="Card image" style="width:100%">
+            <img class="card-img-top" src="img/Rectangle 11-1.png" alt="Card image" style="width:100%">
             <div class="card-body">
               <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias voluptatum repudiandae quia, magni suscipit,</p>
               <a href="#" class="text-danger">En savoir plus</a>
             </div>
           </div>
           <div class="card col-sm" style="width:400px">
-              <img class="card-img-top" src="img/maison-ultra-moderne-noir-blanc.jpg" alt="Card image" style="width:100%">
+              <img class="card-img-top" src="img/Rectangle 11-2.png" alt="Card image" style="width:100%">
               <div class="card-body">
                 <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias voluptatum repudiandae quia, magni suscipit,</p>
                 <a href="#" class="text-danger">En savoir plus</a>
               </div>
           </div>
           <div class="card col-sm" style="width:400px">
-                <img class="card-img-top" src="img/maison-ultra-moderne-noir-blanc.jpg" alt="Card image" style="width:100%">
+                <img class="card-img-top" src="img/Rectangle 11-3.png" alt="Card image" style="width:100%">
                 <div class="card-body">
                   <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias voluptatum repudiandae quia, magni suscipit,</p>
                   <a href="#" class="text-danger">En savoir plus</a>
@@ -157,16 +144,16 @@
       <section>
         <div class="jumbotron jumbotron-fluid">
           <h1 class="text-center"><b>Qui sommes-nous ?</b></h1>
-          <div>
+          <div class="flex">
           <div class="f">
-            <img src="img/sary.jpg" class="b">
+            <img src="img/Rectangle 12.png" class="b">
           </div>
           <div class="c">
             <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b></p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis asperiores quaerat non, eius molestiae saepe</p>
             <button type="button" class="btn btn-danger">En savoir plus</button>
           </div>
-        </div>
+          </div>
         </div>
       </section>
       
