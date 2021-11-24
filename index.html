@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Figma</title>
-    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="main.css">
     <script src="main.js"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   </head>
 <body>
     <!-- navbar -->
@@ -28,18 +30,17 @@
       </nav>
       <!-- hero page -->
       <section>
-        <div class="container-fluid">
+        <div class="container-fluid" style="padding-left: 20px;">
           <form class="form-inline">
             <input class="form-control mr-sm-2" type="text" placeholder="Recherche">
-            <button class="btn btn-secodary" type="submit">search</button>
           </form>
-            <h1 style="padding-top: 10px;"><b>Realiser vos projets</b></h1>
+            <h1 style="padding-top: 10px;"><b>Realiser vos projet</b></h1>
             <br>
-            <h1 class="text-danger"><b>selon votre projet</b></h1> 
+            <h1 class="text-danger"><b>selon vos besoins</b></h1> 
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-             Voluptas soluta quam animi quasi dolore obcaecati voluptates in nulla nobis nisi?</p>
-          <button type="button" class="btn btn-dark">Estimer mon projets</button>
-          <button type="button" class="btn btn-danger">Comment sa marche ?</button>
+             Voluptas soluta quam animi quasi dolore </p>
+          <button type="button" class="btn btn-dark" style="border-radius: 30px;">Estimer mon projets</button>
+          <button type="button" class="btn btn-danger" style="border-radius: 30px;">Comment sa marche ?</button>
         </div>
       </section>
       <section class="pk">
@@ -48,12 +49,14 @@
           <div class="card-deck">
             <div class="card bg-light">
               <div class="card-body text-left">
+                <img src="img/Fichier 6.png" style="width: 60px; padding-bottom: 10px;">
                 <p class="card-text text-danger">SIMPLE</p>
                 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque minima alias, totam aspernatur eius similique! Aperiam ab fugiat reprehenderit eveniet id repellendus, aspernatur dolores temporibus, ipsa facilis, provident distinctio rem?</p>
               </div>
             </div>
           <div class="card bg-light">
             <div class="card-body text-left">
+              <img src="img/Fichier 4.png" style="width: 60px; padding-bottom: 10px;">
               <p class="card-text text-danger">FLEXIBLE</p>
               <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque minima alias, totam aspernatur eius similique! Aperiam ab fugiat reprehenderit eveniet id repellendus, aspernatur dolores temporibus, ipsa facilis, provident distinctio rem?</p>
 
@@ -61,6 +64,7 @@
           </div>
           <div class="card bg-light">
             <div class="card-body text-left">
+              <img src="img/Fichier 5.png" style="width: 50px; padding-bottom: 10px;">
               <p class="card-text text-danger">à TEMPS</p>                
               <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque minima alias, totam aspernatur eius similique! Aperiam ab fugiat reprehenderit eveniet id repellendus, aspernatur dolores temporibus, ipsa facilis, provident distinctio rem?</p>
             </div>
@@ -83,7 +87,7 @@
             <button type="button" class="btn btn-danger" style="align-items: right;">Je me lance</button>
           </div>
           <div class="def">
-            <img src="img/Rectangle 5.png" class="float-right" style="width: 700px; height: 300px; padding-left: 30px;"> 
+            <img src="img/Rectangle 5.png" class="float-right" style="width: 600px; height: 300px; padding-left: 30px;"> 
           </div>
           </div>
         </div>
@@ -91,19 +95,47 @@
       <section>
         <div class="jumbotron jumbotron-fluid">
 
+          <i class="fas fa-angle-left" onclick="left()" style="font-size: xx-large; float: left; cursor: pointer;"></i>
+          <div id="slides" style="overflow-x: hidden; min-width: 80vh; display: inline-flex;  scroll-behavior: smooth; display: flex;">
+              <div class="mx-3" style="padding-left: 200px;">
+                  <img src="img/Fichier 2.png" style="width: 60px;">
+                  <p>labore</p>
+              </div>
+              <div class="mx-5 px-5">
+                <img src="img/Fichier 3.png" style="width: 60px;">    
+                <p>aliqua</p>
+         
+               </div>
+              <div class="mx-5 px-5">
+                <img src="img/Fichier 7.png" style="width: 60px;">   
+                <p>dynamic</p>
+          
+             </div>
+              <div class="mx-5 px-5">
+                <img src="img/Fichier 1.png" style="width: 20px;">                       
+                  <p>fugiot</p>
+              </div>
+            </div>
+          <i class="fas fa-angle-right" style="font-size: xx-large; float: right; cursor: pointer;" onclick="right()"></i>
+        
+
         </div>
       </section>
       <section>
       <div>
         <h1 class="text-center pad"><b>Réalisation</b></h1>
+        <div class="aze">
+          <img src="img/Background.png" >
+          <img src="img/Background-2.png">
+          <img src="img/Background-5.png"> <br>
+          <img src="img/Background-1.png">
+          <img src="img/Background-3.png"> 
+          <img src="img/Background-4.png"> <br>
+        </div>
+        <div class="bouton">
+          <button type="button" class="btn btn-dark" style="border-radius: 30px;">Voir plus</button>
 
-        <img src="img/Background.png" >
-        <img src="img/Background-2.png">
-        <img src="img/Background-5.png"> <br>
-        <img src="img/Background-1.png">
-        <img src="img/Background-3.png"> 
-        <img src="img/Background-4.png"> <br>
-        <button type="button" class="btn btn-dark">Voir plus</button>
+        </div>
       </div>
       </section>
       <section>
@@ -111,33 +143,46 @@
           <h1 class="text-center"><b>Les offres et promotions</b></h1>
           <div class="row">
           <div class="card col-sm" style="width:400px">
-            <img class="card-img-top" src="img/Rectangle 11-1.png" alt="Card image" style="width:100%">
+            <img class="card-img-top" src="img/Rectangle 11.png" alt="Card image" style="width:100%">
             <div class="card-body">
               <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias voluptatum repudiandae quia, magni suscipit,</p>
               <a href="#" class="text-danger">En savoir plus</a>
             </div>
           </div>
           <div class="card col-sm" style="width:400px">
-              <img class="card-img-top" src="img/Rectangle 11-2.png" alt="Card image" style="width:100%">
+              <img class="card-img-top" src="img/Rectangle 11-1.png" alt="Card image" style="width:100%">
               <div class="card-body">
                 <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias voluptatum repudiandae quia, magni suscipit,</p>
-                <a href="#" class="text-danger">En savoir plus</a>
+                  <a href="#" class="text-danger">En savoir plus</a>
               </div>
           </div>
           <div class="card col-sm" style="width:400px">
-                <img class="card-img-top" src="img/Rectangle 11-3.png" alt="Card image" style="width:100%">
+                <img class="card-img-top" src="img/Rectangle 11-2.png" alt="Card image" style="width:100%">
                 <div class="card-body">
                   <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias voluptatum repudiandae quia, magni suscipit,</p>
-                  <a href="#" class="text-danger">En savoir plus</a>
+                  <div class="sis">
+                    <a href="#" class="text-danger">En savoir plus</a>
+                  </div>  
                 </div>
             </div>
         </div>
         </div>
       </section>
       <section>
-        <div>
+        <div style="padding-bottom: 50px;">
           <h1 class="text-center"><b>Nos conseils</b></h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur eveniet inventore recusandae voluptas quos. Magnam laborum eveniet deserunt eos quo officia tenetur quas ab dolorem sunt! Dolore optio pariatur harum!</p>
+          <div class="fl">
+              <div style="padding-left: 250px;">
+                  <img src="img/Rectangle 11-3.png" alt="">
+                  <p class="text-danger">Les nouveaux conseils</p>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur eveniet inventore recusandae voluptas quos. </p>
+              </div>
+              <div>
+                <img src="img/Rectangle 11-4.png" style="width=400px">
+                <p class="text-danger">Les tendances du jour</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing. Aspernatur eveniet inventore recusandae voluptas quos. </p>
+              </div>
+          </div>
 
         </div>
       </section>
@@ -151,8 +196,33 @@
           <div class="c">
             <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b></p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis asperiores quaerat non, eius molestiae saepe</p>
-            <button type="button" class="btn btn-danger">En savoir plus</button>
+            <button type="button" class="btn btn-danger" style="border-radius: 30px;">En savoir plus</button>
           </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="fr">
+          <div style="padding-right: 30px;">
+            Nos offres
+          </div>
+          <div style="padding-right: 30px;">
+            Nos valeurs
+          </div>
+          <div style="padding-right: 30px;">
+            Témoignages
+          </div>
+          <div style="padding-right: 30px;">
+            Vous êtes artisans?
+          </div>
+          <div style="padding-right: 30px;">
+            Comment ça marche?
+          </div>
+          <div style="padding-right: 30px;">
+            Aide
+          </div>
+          <div style="padding-right: 30px;">
+            connexion
           </div>
         </div>
       </section>
