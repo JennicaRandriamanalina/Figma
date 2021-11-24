@@ -1,11 +1,40 @@
 .container-fluid{
-    background-image: url("img/beige.jpg");
+    background-image: url("img/cover.jpg");
     background-position: top;
-    background-repeat: initial;
-    padding-left: 100px;
+    padding-left: 80px;
     padding-top: 200px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 .btn{
     border-radius: 30px;
+}
+.card-deck{
+    padding: 100px;
+}
+.abcd{
+    padding-left: 100px;
+}
+.def{
+display: right;
+padding-right: 200px;
+padding-top: 0px;
+}
+.a{
+    padding-bottom: 200px;
+}
+.row{
+    padding: 50px;
+}.row .col-sm {
+    padding: 10px;
+}
+
+.b{
+    width: 300px;
+}
+.f{
+    padding-left: 250px;
+    padding-top: 50px;
+}
+.c{
+    text-align: left;
 }
