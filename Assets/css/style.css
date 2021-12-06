@@ -103,7 +103,6 @@ color: #4F4F4F;
     font-weight: bold;
     font-size: 21px;
     line-height: 31px;
-    margin-left: 37px;
 }
 .tx{
     font-family: 'Nunito', sans-serif;
@@ -112,10 +111,11 @@ color: #4F4F4F;
     font-size: 16px;
     line-height: 30px;
     color: #4F4F4F;
+    padding-bottom: 50px;
 }
 .s{
     padding-top: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
 }
 .ss{
     padding-bottom: 30px;
@@ -171,6 +171,10 @@ color: #4F4F4F;
     background: #F2F5F7;
     width: 100%;
 }
+.cc{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
 .cl{
     width: 370px;
     height: 279px;
@@ -187,8 +191,12 @@ color: #4F4F4F;
 .fr{
     display: flex;
     justify-content: space-around;
+    padding-top: 15px;
+    height: 60px;
 }
 .last .fab{
+    padding-top: 15px;
+
     color: #EB5956;
 }
 .footer-col{
@@ -268,14 +276,12 @@ color: #4F4F4F;
 
 .tg{
     
-    left: 420px;
-    top: 4656px;
-    
     font-family: 'Oswald', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
-    line-height: 30px;
+    line-height: 40px;
+    padding-top: 10px;
     
     /* identical to box height, or 136% */
     text-align: center;
@@ -284,15 +290,22 @@ color: #4F4F4F;
     color: #EB5956;
 }
 .ll{
-    margin-left: auto;
     margin-top: 100px;
-    margin-right: auto;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
 }
+.x{
+    padding-top: 40px;
+    padding-left: 40px;
+}
 .foot .fab{
     color: black;
+    padding-bottom: 20px;
+}
+.foot{
+    border-top: #E0E0E0 solid 1px;
+    border-bottom: #E0E0E0 solid 1px;
 }
 .s8{
     width: 100%;
@@ -306,8 +319,8 @@ color: #4F4F4F;
 .fin{
     display: flex;
     justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 70px;
 }
 .ns{
     margin-left: 50px;
