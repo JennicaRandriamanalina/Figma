@@ -58,6 +58,7 @@ input{
     margin-right: auto;
 }
 .h{
+    padding-top: 25px;
     font-family: 'Oswald', sans-serif;
     font-style: normal;
 }hr{
@@ -84,16 +85,17 @@ color: #4F4F4F;
     width: 100%; 
 }
 .real{
-    width: 410px;
-    height: 59px;
+    
     padding-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Oswald', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
+    display: flex;
+    justify-content: space-around;
     align-content: center;
 }
 .t{
@@ -184,6 +186,20 @@ color: #4F4F4F;
     height: 51px;
     
 }
+.rond{
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    color: white;    
+    border-radius: 50px;
+    left: 289px;
+    top: 15px;
+    /* colorMain */
+    background: #EB5956;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
 .r0{
     display: flex;
     justify-content: center;
@@ -198,6 +214,9 @@ color: #4F4F4F;
     padding-top: 15px;
 
     color: #EB5956;
+}
+.cc{
+    position: relative;
 }
 .footer-col{
     display: flex;
@@ -294,6 +313,7 @@ color: #4F4F4F;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+    margin-bottom: 50px;
 }
 .x{
     padding-top: 40px;
