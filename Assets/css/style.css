@@ -165,8 +165,20 @@ color: #4F4F4F;
     height: 160px;
 }
 .cc{
-    margin-top: 50px;
+    width: 370px;
+    height: 514px;    margin-top: 50px;
     margin-bottom: 70px;
+}
+.ctt{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 45px;
+color: #4F4F4F;
 }
 .cl{
     width: 370px;
@@ -183,7 +195,7 @@ color: #4F4F4F;
     height: 57px;
     color: white;    
     border-radius: 50px;
-    left: 289px;
+    left: 305px;
     top: 15px;
     /* colorMain */
     background: #EB5956;
