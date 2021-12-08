@@ -161,6 +161,8 @@ color: #4F4F4F;
 .s4{
     background: #F2F5F7;
     width: 100%;
+    position: relative;
+    height: 160px;
 }
 .cc{
     margin-top: 50px;
@@ -232,6 +234,10 @@ color: #4F4F4F;
   .logo{
     display: flex;
     justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+
   }
   /* Position the "next button" to the right */
   .next {
@@ -318,3 +324,28 @@ color: #4F4F4F;
     color: white;
     background: #EB5956;
 }
+.carousel-control.left.hh  {
+    background-image: none !important; 
+}
+.carousel-control.right.hh  {
+    background-image: none !important; 
+}
+.glyphicon.glyphicon-chevron-right.hj{
+    color: #BDBDBD;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    right: 5px;
+    padding-top: 15px;
+
+}
+.glyphicon.glyphicon-chevron-left.hj{
+    color: #BDBDBD;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 5px;
+    padding-top: 15px;
+
+}
+
