@@ -1,16 +1,11 @@
 .cnav{
     font-family: 'Oswald', sans-serif;
 }
-.navbar2{
-    position: relative;
 
+.navbar{
+    margin-bottom: 0px !important;
 }
-.navbar-nav{
-    font-family: 'Nunito', sans-serif;
-    position: absolute;
-    left: 700px;
 
-}
 .back{
     background-image: url("../image/png/rectangle6.png");
     background-repeat: no-repeat;
@@ -20,7 +15,22 @@
     padding-top: 74px;
     padding-bottom: 60px;
 }
-
+.ct{
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+     font-weight: bold;
+     font-size: 16px;
+     line-height: 24px;
+     color: #EB5956;
+     display: flex;
+     justify-content: flex-end;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    float: right;
+}
 input{
     background: #FFFFFF;
     border-radius: 50px;
@@ -58,10 +68,8 @@ input{
 }
 
 .hr1{
-    width: 456px;
-    height: 60px;
- 
-
+    
+    width: auto;
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -105,11 +113,11 @@ color: #4F4F4F;
     padding-bottom: 50px;
 }
 .s{
-    padding-top: 40px;
+    /* padding-top: 40px; */
     padding-bottom: 70px;
 }
 .ss{
-    padding-bottom: 30px;
+    padding-bottom: 0px;
 }
 
  .s3{
@@ -118,14 +126,13 @@ color: #4F4F4F;
 }
 
 .fl{
-    display: flex;
     padding-top: 100px;
     padding-bottom: 50px;
 }
 
+
 .txt{
-    width: 359px;
-    height: 31px;
+ 
 
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -134,30 +141,43 @@ color: #4F4F4F;
 }
 
 .txt1{
-    width: 359px;
-    height: 85px;
+  
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
 
     color: #4F4F4F;
-
 }
-.bb{
-    width: 190px;
-    height: 50px;
+.pic{
+    width: 61px;
+     height: 61px;
+}
+.btn.bb{
+   
     color: white;
     background-color: #EB5956;
+   border-radius: 50px;
 }
-.b3{
+.btn.bbn{
+    color: white;
+    background-color: #000000;
+   border-radius: 50px;
+}
+
+.btn.b3{
     width: 190px;
     height: 50px;
     color: white;
     background-color: #EB5956;
     border-radius: 50px;
-    margin-left: 100px;
 } 
+.ka{
+    display:flex; 
+    justify-content: center;
+    padding-bottom: 20px;
+
+}
 .s4{
     background: #F2F5F7;
     width: 100%;
@@ -165,8 +185,8 @@ color: #4F4F4F;
     height: 160px;
 }
 .cc{
-    width: 370px;
-    height: 514px;    margin-top: 50px;
+   
+    margin-top: 50px;
     margin-bottom: 70px;
 }
 .ctt{
@@ -175,19 +195,24 @@ color: #4F4F4F;
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-bottom: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    padding-bottom: 25px;
 color: #4F4F4F;
 }
 .cl{
-    width: 370px;
-    height: 279px;
+   padding-bottom: 10px;
 }
 .btn{
     width: 174px;
     height: 51px;
     
+}
+.btn.bn{
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 .rond{
     position: absolute;
@@ -195,7 +220,7 @@ color: #4F4F4F;
     height: 57px;
     color: white;    
     border-radius: 50px;
-    left: 305px;
+    right: 11px;
     top: 15px;
     /* colorMain */
     background: #EB5956;
@@ -214,7 +239,6 @@ color: #4F4F4F;
     height: 60px;
 }
 .last .fab{
-    padding-top: 15px;
 
     color: #EB5956;
 }
@@ -234,8 +258,7 @@ color: #4F4F4F;
   .mySlides {
     display: flex;
   }
-  
-  
+ 
   .fade > img{
       width: 40px;
       height: 50px;
@@ -251,18 +274,8 @@ color: #4F4F4F;
     padding-right: 40px;
 
   }
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }  .s6{
+ 
+   .s6{
     width: 100%;
     left: -1px;
     top: 3315px;
@@ -286,7 +299,7 @@ color: #4F4F4F;
     color: #EB5956;
 }
 .ll{
-    margin-top: 100px;
+    margin-top: 70px;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
@@ -332,6 +345,13 @@ color: #4F4F4F;
     background: #EB5956;
     border-radius: 50px;
 }
+.conseil{
+    width: 370px;
+     height: 514px;
+}
+.ptx{
+    padding-top: 20px;
+}
 .btn1{
     color: white;
     background: #EB5956;
@@ -360,4 +380,139 @@ color: #4F4F4F;
     padding-top: 15px;
 
 }
+@media (max-width:1200px) {
+    .imgg{
+        width: 100%;
+    }
+}
+ @media (max-width: 992px) {
+    .fl{
+        display: flex;
+        justify-content: space-around;
+    }
+    .c2{
+        padding-left: 20px;
+    }
+    .imgg{
+        width: auto;
+        padding-left: 80px;
+   }
+}
+@media (max-width:768px ) and (min-width:575px){
+ .imgg{
+     width: 100%;
+ }
+ .fl{
+     padding-top: none;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
 
+ .ll{
+    display: flex;
+    flex-wrap: wrap;
+}
+}
+@media (max-width:576px) and (min-width:481px){
+    .trt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 10px;
+        
+    }
+    .real{
+        margin-bottom: 20px;
+    }
+    .cl{
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ka{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .btn{
+        width: 90px;
+    }
+    .btn.bbn{
+        color: white;
+        background-color: #000000;
+        width: 190px;
+        height: 50px;
+         border-radius: 50px;
+    }
+    .cc{
+        width: auto;
+        margin-left: 100px;
+    }
+    .btn.bn{
+        border-radius: 50px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        width: 190px;
+    }
+    .ll{
+        display: flex;
+        flex-wrap: wrap;
+    }
+   
+}
+@media (min-width:320px) and (max-width:480px) {
+    input{
+        width: 270px;
+        height: 53px;
+        padding-left: 25px;
+    }
+   
+    .fa-search{
+        left: 230px;
+    }
+    .imgg{
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+    }
+    .btn.bbn{
+        color: white;
+        background-color: #000000;
+        /* width: 190px;
+        height: 50px; */
+        width: 100%;
+       border-radius: 50px;
+    }
+    .cc{
+        width: auto;
+        margin-left: 10px;
+    } 
+    .footer-col{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .fr{
+        flex-wrap: wrap;
+    }
+    .cl{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ii{
+        width: 100%;
+    }
+    .ll{
+        display: flex;
+        flex-wrap: wrap;
+    }
+  
+}
+
+
+
+/* 768 --  993 ,, 710--775 ,, 479-- 325 */

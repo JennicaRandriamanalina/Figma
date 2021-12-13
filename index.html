@@ -21,18 +21,34 @@
 <body>
     <!-- Navbar -->
     <header>
-      <nav class="container navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-sm navbar-light bg-light">
           <div class="container-fluid navbar2">
             <a class="navbar-brand cnav" href="#">Logo</a>
-           
-            <div class="collapse navbar-collapse">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse pull-right" id="collapsibleNavbar">
               <div class="navbar-nav">
-                <a class="nav-link  active" aria-current="page" href="#">ACCEUIL</a>
-                <a class="nav-link  active" href="#">REALISATION</a>
-                <a class="nav-link  active" href="#">CONTACT</a>
-                <a class="nav-link  active text-danger" href="#">SE CONNECTER</a>
-                <img class="france" src="Assets/image/svg/france 1.svg" style="padding-right: 5px;">
-                <img class="amerique" src="Assets/image/svg/amerique 1.svg" alt="">
+                <ul>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">ACCEUIL</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">REALISATION</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  active" href="#">CONTACT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-danger" href="#">SE CONNECTER</a>
+                  </li>
+                  <li class="nav-item">
+                    <img class="france" src="Assets/image/svg/france 1.svg" style="padding-right: 5px;">
+                  </li>
+                  <li class="nav-item">
+                    <img class="amerique" src="Assets/image/svg/amerique 1.svg" alt="">
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -62,8 +78,8 @@
           <p class="hr1"> 
             Lorem ipsum dolor sit amet, <br> consectetur adipisicing eli
           </p>
-          <button type="button" class="btn bb" style=" width: 190px; height: 50px; border-radius: 50px; ">Estimer Mon projet</button>
-          <button type="button" class="btn btn-dark" style=" width: 190px; height: 50px; border-radius: 50px; ">Comment sa marche ?</button>
+          <button type="button" class="btn bb">Estimer Mon projet</button>
+          <button type="button" class="btn bbn">Comment sa marche ?</button>
         </div>
       </div>
      
@@ -75,27 +91,27 @@
           Pourquoi nous choisir?
         </div>
         <div class="s row">
-            <div class="col-4">
+            <div class="col-md-4 col-sm-12 ">
               <div class="card x">
-                <img src="Assets/image/svg/Vector(4).svg" class="pic" style="width: 61px; height: 61px;" alt="">
+                <img src="Assets/image/svg/Vector(4).svg" class="pic" alt="">
                 <div class="card-body">
                   <h5 class="card-title t">SIMPLE</h5>
                   <p class="card-text tx">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-md-4 col-sm-12 ">
               <div class="card x">
-                <img src="Assets/image/svg/bx_bxs-tennis-ball.png" class="pic" style="width: 61px; height: 61px;" alt="">
+                <img src="Assets/image/svg/bx_bxs-tennis-ball.png" class="pic"alt="">
                 <div class="card-body">
                   <h5 class="card-title t">FLEXIBLE</h5>
                   <p class="card-text tx">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-md-4 col-sm-12 ">
               <div class="card x">
-                <img src="Assets/image/svg/Vector(2).svg" class="pic" style="width: 61px; height: 61px;" alt="">
+                <img src="Assets/image/svg/Vector(2).svg" class="pic" alt="">
                 <div class="card-body">
                   <h5 class="card-title t">A TEMPS</h5>
                   <p class="card-text tx">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -112,18 +128,18 @@
         <div class="container real">
           Comment on procède ?
         </div>
-        <div class="fl">
-          <div>
+        <div class="fl row">
+          <div class="col-sm-4 col-md-4 trt" >
             <p class="txt">
               1. Je définis mon projet
             </p>
             <p class="txt1">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna.
             </p>
-            <button type="button" class="btn b3" style="border-radius: 30px;">Je Me lance</button>
+            <button type="button" class="btn b3 pull-right ">Je Me lance</button>
           </div>
-          <div class="sary">
-            <img src="Assets/image/png/Rectangle 5.png" alt="">
+          <div class="col-md-8 col-sm-8">
+            <img src="Assets/image/png/Rectangle 5.png" class="imgg" alt="">
           </div>
         </div>
       </div>
@@ -178,41 +194,40 @@
         <div class="real">
           <p>Realisation</p>
         </div>
-        <div  style="display:flex; justify-content: center;">
-          <div style="padding-right: 180px; width: 20px;text-align: center;padding-top: 50px;">
-            <button href="#" onclick="styl()" type="button" class="btn btn1" style="align-items: right; border-radius: 5px;">Tout</button>
+        <div class="ka">
+          <div>
+            <button href="#" onclick="styl()" type="button" class="btn btn1">Tout</button>
           </div>
-          <div style="padding: 50px;">
-            <button href="#" onclick="styl0()" type="button" class="btn" style="align-items: right; border-radius: 5px;">Plomberie</button>
+          <div>
+            <button href="#" onclick="styl0()" type="button" class="btn">Plomberie</button>
           </div>
-          <div style="padding: 50px;">
-            <button href="#" onclick="styl1()"type="button" class="btn " style="align-items: right; border-radius: 5px;">Menuiserie</button>
+          <div>
+            <button href="#" onclick="styl1()"type="button" class="btn">Menuiserie</button>
           </div>
-          <div style="padding: 50px;">
-            <button type="button" class="btn" style="align-items: right; border-radius: 5px;">Lorem</button>
+          <div>
+            <button type="button" class="btn">Lorem</button>
           </div>
       </div>
       <div id="sary">
+       
         <div id="captures" class="row">
       
-          <img class="col-3 cl" src="Assets/image/png/Background.png" style="padding-bottom: 10px;">
-          <img class="col-3 cl " src="Assets/image/png/Background-2.png"style="padding-bottom: 10px;">
-          <img class="col-3 cl" src="Assets/image/png/Background-5.png"style="padding-bottom: 10px;">
+          <img class="col-md-4 col-sm-6 cl" src="Assets/image/png/Background.png">
+          <img class="col-md-4 col-sm-6  cl " src="Assets/image/png/Background-2.png">
+          <img class="col-md-4 col-sm-6 cl" src="Assets/image/png/Background-5.png">
       
         </div>
   
         <div id="images" class="row">
-          <img class="col-3 cl p-35"  src="Assets/image/png/Background-1.png">
-          <img class="col-3 cl" src="Assets/image/png/Background-3.png"> 
-          <img class="col-3 cl" src="Assets/image/png/Background-4.png"> 
+          <img class="col-md-4 col-sm-6 cl"  src="Assets/image/png/Background-1.png">
+          <img class="col-md-4 col-sm-6 cl" src="Assets/image/png/Background-3.png"> 
+          <img class="col-md-4 col-sm-6 cl" src="Assets/image/png/Background-4.png"> 
         
         </div>
            
     </div>
         <div class="bouton d-flex justify-content-center">
-          <button type="button" class="btn bn btn-dark pull-center" style="border-radius: 30px;width: 190px;
-          height: 50px; margin-top: 60px; margin-bottom: 74px; ">Voir plus</button>
-
+          <button type="button" class="btn bn btn-dark pull-center" >Voir plus</button>
         </div>
       </div>
     </section>
@@ -221,34 +236,34 @@
         <div class="container">
           <p class="real">Les offres et promotions</p>
           <div class="row ss">
-            <div class="col-4">
-              <div class="card cc">
-                <img class="card-img-top" src="Assets/image/png/Rectangle 11.png" alt="Card image" style="width:100%">
+            <div class="col-sm-12  col-lg-4  col-md-4 col-xl-4">
+            <div class="card cc">
+              <img class="card-img-top" src="Assets/image/png/Rectangle 11.png" alt="Card image">
                 <p class="rond">250£</p>
                 <div class="card-body">
                   <p class="card-text ctt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <a href="#" class="text-danger ct" style="padding-left: 220px;font-family: 'Oswald', sans-serif;font-style: normal; font-weight: bold;font-size: 16px;line-height: 24px;color: #EB5956;padding-top: 500px;">En savoir Plus</a>
+                  <a href="#" class="ct">En savoir Plus</a>
                 </div>
               </div>
             </div>
-          <div class="col-4">
+          <div class="col-sm-12 col-lg-4 col-md-4 cl6 col-xl-4">
             <div class="card cc">
-              <img class="card-img-top" src="Assets/image/png/Rectangle 11-1.png" alt="Card image" style="width:100%">
+              <img class="card-img-top" src="Assets/image/png/Rectangle 11-1.png" alt="Card image">
               <p class="rond">250£</p>
               <div class="card-body">
                 <p class="card-text ctt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <a href="#" class="text-danger ct" style="padding-left: 220px;font-family: 'Oswald', sans-serif;font-style: normal; font-weight: bold;font-size: 16px;line-height: 24px;color: #EB5956;padding-top: 500px;">En savoir Plus</a>
+                <a href="#" class="ct">En savoir Plus</a>
               </div>
           </div>
           </div>
-          <div class="col-4">
+          <div class="col-sm-12  col-lg-4  col-md-4 col-xl-4">
             <div class="card cc">
-              <img class="card-img-top" src="Assets/image/png/Rectangle 11-2.png" alt="Card image" style="width:100%">
+              <img class="card-img-top" src="Assets/image/png/Rectangle 11-2.png" alt="Card image">
               <p class="rond">250£</p>
               <div class="card-body">
                 <p class="card-text ctt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <div class="sis">
-                  <a href="#" class="text-danger ct" style="padding-left: 220px;font-family: 'Oswald', sans-serif;font-style: normal; font-weight: bold;font-size: 16px;line-height: 24px;color: #EB5956;padding-top: 500px;">En savoir Plus</a>
+                  <a href="#" class="ct" >En savoir Plus</a>
                 </div>  
               </div>
           </div>
@@ -261,8 +276,8 @@
         <div class="container">
           <p class="real">Nos conseils</p>
           <div class="ll">
-              <div style="width: 370px; height: 514px;">
-                  <img src="Assets/image/png/Rectangle 11-3.png" style="width: 371px; height: 284px;" alt="">
+              <div class="conseil">
+                  <img src="Assets/image/png/Rectangle 11-3.png" class="ii">
                   <p class="tg">Les nouveaux conseils</p>
                   <div class="foot">
                     <span class="fa-stack">
@@ -281,11 +296,10 @@
                       </a>
                     </span>
                   </div>
-                  <p style="padding-top: 20px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur eveniet inventore recusandae voluptas quos. </p>
+                  <p class="ptx">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur eveniet inventore recusandae voluptas quos. </p>
                 </div>
-              <div style="width: 370px; height: 514px;">
-                <img src="Assets/image/png/Rectangle 11-4.png" style="width: 371px;
-                height: 284px;">
+              <div class="conseil c2">
+                <img src="Assets/image/png/Rectangle 11-4.png" class="ii">
                 <p class="tg">Les tendances du jour</p>
                 <div class="foot">
                   <span class="fa-stack">
@@ -304,7 +318,7 @@
                     </a>
                   </span>
                 </div>
-                <p style="padding-top: 20px;">Lorem ipsum, dolor sit amet consectetur adipisicing. Aspernatur eveniet inventore recusandae voluptas quos. </p>
+                <p class="ptx">Lorem ipsum, dolor sit amet consectetur adipisicing. Aspernatur eveniet inventore recusandae voluptas quos. </p>
               </div>
               
     
@@ -327,7 +341,7 @@
                     <div class="ns">
                       <p><b>Lorem ipsum</b></p>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Nobis asperiores quaerat non, eius molestiae saepe</p>
-                      <button type="button" class="btn bt" style="border-radius: 30px;">En savoir plus</button>
+                      <button type="button" class="btn b3">En savoir plus</button>
                     </div>
                   </div>
               </div>
@@ -339,7 +353,7 @@
                   <div class="ns">
                     <p><b>Lorem ipsum</b></p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Nobis asperiores quaerat non, eius molestiae saepe</p>
-                    <button type="button" class="btn bt" style="border-radius: 30px;">En savoir plus</button>
+                    <button type="button" class="btn b3">En savoir plus</button>
                   </div>
                 </div>
             </div>
@@ -360,31 +374,28 @@
   
       <!-- footer -->
       <footer>
-        <div class="fr">
-          <div class="fr">
-            <div style="padding-right: 30px; padding-left: 30px;">
+        <div class="container fr">
+            <div>
               Nos offres
             </div>
-            <div style="padding-right: 30px;">
+            <div>
               Nos valeurs
             </div>
-            <div style="padding-right: 30px;">
+            <div>
               Témoignages
             </div>
-            <div style="padding-right: 30px;">
+            <div>
               Vous êtes artisans?
             </div>
-            <div style="padding-right: 30px;">
+            <div>
               Comment ça marche?
             </div>
-            <div style="padding-right: 30px;">
+            <div>
               Aide
             </div>
-            <div style="padding-right: 30px;">
+            <div>
               connexion
             </div>
-
-          </div>
           
           <div class="footer-col last">
             <span class="fa-stack">
