@@ -25,3 +25,17 @@ function styl0(){
         document.getElementById("tout").style.visibility="visible";
      
   }
+  
+//  Color
+function setColor(e, btn, color) {
+    var target = e.target,
+        count = +target.dataset.count;
+    
+     target.style.backgroundColor = count === 1 ? "#EB5956" : '#FFFFFF';
+     target.dataset.count = count === 1 ? 0 : 1;
+  }
+
+
+
+
+
